@@ -10,7 +10,7 @@ public class Main {
     pi2.hacemosPizza(2,false,"fina",true,true,false,false,false,true);
         System.out.println(pi2.toString());
 
-    pizza base = new BuilderPizza().setmasa("pan").setRelleno(true).setTipoSalsa("Carbonara").build();
+    pizza base = new BuilderPizza().setmasa("pan").setRelleno(true).setTipoSalsa("Carbonara").setCebolla(true).setExtraQueso(true).setJamon(false).setPiña(false).build();
 
         System.out.println("Las pizzas");
     }

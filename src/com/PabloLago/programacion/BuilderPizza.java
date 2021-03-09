@@ -23,4 +23,20 @@ public class BuilderPizza {
         _pizza.setTipoSalsa(TipoSalsa);
         return this;
     }
+    public BuilderPizza setCebolla(boolean cebolla) {
+        _pizza.setCebolla(cebolla);
+        return this;
+    }
+    public BuilderPizza setExtraQueso(boolean extraQueso) {
+        _pizza.setRelleno(extraQueso);
+        return this;
+    }
+    public BuilderPizza setJamon(boolean jamon) {
+        _pizza.setJamon(jamon);
+        return this;
+    }
+    public BuilderPizza setPiña(boolean piña) {
+        _pizza.setPiña(piña);
+        return this;
+    }
 }
